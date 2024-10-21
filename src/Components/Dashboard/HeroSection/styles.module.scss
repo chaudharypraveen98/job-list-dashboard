@@ -1,0 +1,40 @@
+.heroSectionContainer {
+  .heroSection {
+    background: linear-gradient(90deg, #ecf3fd 0%, #e1e5fe 100%);
+    border: 1px solid rgba(14, 49, 165, 0.2);
+    border-radius: 12px;
+    padding: 30px 32px;
+    min-height: 350px;
+    position: relative;
+    .heroHeading {
+      h3 {
+        font-size: 30px;
+        font-weight: 600;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        width: 562px;
+        margin-top: 10px;
+      }
+    }
+    .cards {
+      margin-top: 20px;
+      display: flex;
+      align-items: stretch;
+      gap: 20px;
+      position: absolute;
+      width: 100%;
+      > div {
+        width: 30%;
+      }
+    }
+  }
+  .candidatesContainer {
+    margin-top: 120px;
+    display: flex;
+    gap:30px;
+  }
+}

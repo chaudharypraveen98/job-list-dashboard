@@ -1,0 +1,43 @@
+.latestCandidateCard {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  padding: 20px;
+  h2 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  table {
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    thead {
+      tr {
+        th {
+          background: rgba(243, 243, 243, 1);
+          padding: 10px 8px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 21px;
+          text-align: left;
+        }
+      }
+    }
+    tbody {
+      tr {
+        &:hover {
+          background-color: lightgray;
+        }
+        td {
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 21px;
+          text-align: left;
+          padding: 10px 8px;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+}

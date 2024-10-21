@@ -1,0 +1,24 @@
+.footer {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .container {
+            display: flex;
+            align-items: center;
+            .red-dot {
+                    width: 15px;
+                    height: 40px;
+                    background-color: red;
+                    border-radius: 18%;
+                    display: inline-block;
+                    margin-right: 8px;
+                }
+            
+                .name {
+                    font-size: 16px;
+                }
+        }
+
+}
+
