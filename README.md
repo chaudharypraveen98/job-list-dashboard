@@ -2,7 +2,7 @@
 
 ## 🔍 Overview
 
-The **Job Dashboard** is a powerful web application built with **Next.js**, offering an intuitive interface to manage job postings and track applicants. It includes various dynamic sections like a private job board, real-time stats, AI-powered credits, recent job postings, and detailed applicant information.
+The **Job Dashboard** is a powerful web application built with **React.js**, offering an intuitive interface to manage job postings and track applicants. It includes various dynamic sections like a private job board, real-time stats, AI-powered credits, recent job postings, and detailed applicant information.
 
 **👀 Preview the Project:**  
 [Job Dashboard Live](https://www.praveenchaudhary.in/job-list-dashboard/)
