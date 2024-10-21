@@ -7,9 +7,10 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
+  base: "/job-list-dashboard",
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'), // Point to the src directory
+      "@": path.resolve(__dirname, "./src"), // Point to the src directory
     },
   },
-})
+});
