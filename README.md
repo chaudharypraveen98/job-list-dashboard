@@ -7,6 +7,8 @@ The **Job Dashboard** is a powerful web application built with **React.js**, off
 **👀 Preview the Project:**  
 [Job Dashboard Live](https://www.praveenchaudhary.in/job-list-dashboard/)
 
+<img src="home.png" alt="homepage" />
+
 ## 🌟 Features
 
 - **🔒 Private Job Board:** Securely manage and view job listings in a private environment.
